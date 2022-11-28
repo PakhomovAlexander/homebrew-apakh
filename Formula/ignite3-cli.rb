@@ -4,7 +4,7 @@ class Ignite3Cli < Formula
   url "https://dlcdn.apache.org/ignite/3.0.0-beta1/ignite3-cli-3.0.0-beta1.zip"
   sha256 "526d492d93b483cb4cc5b2b1d00190866f1883fcfe9e5104244dc3d5c0e26a87"
 
-  license ""
+  license "Apache-2.0"
 
   depends_on "openjdk@11"
 
