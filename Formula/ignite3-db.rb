@@ -38,7 +38,7 @@ class Ignite3Db < Formula
   end
 
   service do
-    #environment_variables IGNITE_HOME: opt_prefix
+    environment_variables IGNITE_HOME: libexec
     run [libexec/"bin/ignite3db", "start"]
     keep_alive true
     log_path f.ignite3_db_log_path
